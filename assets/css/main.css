@@ -142,11 +142,11 @@ a.project figure{
 	}
 
 	header ul {
-    text-align: right;
+    	padding-left: 63.28125%; /*648/1024*/
 	}
 
-	header ul li {
-	    display:inline;
+	header ul li a{
+		padding: 0 32px;
 	}
 	
 
@@ -299,6 +299,19 @@ a.project figure{
 /*////////////// DESKTOP //////////////*/
 
 @media screen and (min-width: 1440px) {
+
+	.pagewrap{
+		width: 95.833333%; /*1380/1440*/
+		margin: 2.083333%; /*30/1440*/
+	}
+
+	header ul {
+    	padding-left: 71.73913%; /*990/1380*/
+	}
+
+	header ul li a{
+		padding: 0 32px;
+	}
 
 	.section-one{
 		float: left;
